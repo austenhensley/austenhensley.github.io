@@ -7,6 +7,9 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 [Watch Code Review](https://youtu.be/Z9YHr7qq7Mc)
 
 ## Software Design and Engineering Enhancement
+
+[View Enhancement 1 - Software Design and Engineering/(https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering)
+
 ### Narrative
 
 <p style="text-indent: 40px;">
