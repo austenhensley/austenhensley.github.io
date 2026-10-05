@@ -8,7 +8,7 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 
 ## Software Design and Engineering Enhancement
 
-[View Enhancement 1 - Software Design and Engineering/(./Enhancement 1 | Software Engineering/)
+[View Enhancement 1 - Software Design and Engineering](./Enhancement 1 | Software Engineering/)
 
 ### Narrative
 
