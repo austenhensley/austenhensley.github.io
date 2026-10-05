@@ -1,6 +1,0 @@
-<resources>
-    <string-array name="weight_unit_options">
-        <item>Pounds (lb)</item>
-        <item>Kilograms (kg)</item>
-    </string-array>
-</resources>
