@@ -7,7 +7,7 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 [Watch Code Review](https://youtu.be/Z9YHr7qq7Mc)
 
 ## Software Design and Engineering Enhancement
-### Milestone Two Narrative
+### Narrative
 
 <p style="text-indent: 40px;">
 For this enhancement, I went back to the weight-tracking Android app I originally made in CS 360 in C-2 2026. The app is pretty simple on purpose. Users can create an account, log in, enter their weight, set a goal weight, and get a notification once they reach that goal. I originally wanted it to be more straightforward than a lot of the bigger fitness apps that try to do everything at once.
