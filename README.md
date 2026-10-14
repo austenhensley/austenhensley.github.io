@@ -12,12 +12,10 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 
 ### Narrative
 
-<p style="text-indent: 40px;">
 For this enhancement, I went back to the weight-tracking Android app I originally made in CS 360 in C-2 2026. The app is pretty simple on purpose. Users can create an account, log in, enter their weight, set a goal weight, and get a notification once they reach that goal. I originally wanted it to be more straightforward than a lot of the bigger fitness apps that try to do everything at once.
-</p>
-<p style="text-indent: 40px;">
+
 When I first built it, I was just focused on making sure it worked. Looking back at it now, I could definitely tell that was my mindset at the time. A lot of the logic was packed into the activities, including database work and validation. The app also stored passwords in plain text, which stood out immediately as something that needed to be changed.
-</p>
+
 <p style="text-indent: 40px;">
 That is a big reason I chose this artifact for my ePortfolio. I think it shows my growth better than using something that was already polished. The original version works, but the enhanced version shows that I think more about how software is structured now and not just whether I can get a feature working.
 </p>
