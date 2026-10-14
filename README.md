@@ -4,13 +4,17 @@
 
 Take a look at my original weight-tracking app created in CS360.
 
-[View Original Artifact](https://github.com/austenhensley/austenhensley.github.io/tree/main/Original%20Artifact)
+<a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Original%20Artifact" target="_blank">
+View Original Artifact
+</a>
 
 ## Code Review
 
 Watch my code review covering the planned enhancements to my weight-tracking app.
 
-[Watch Code Review](https://youtu.be/Z9YHr7qq7Mc)
+<a href="https://youtu.be/Z9YHr7qq7Mc" target="_blank">
+Watch Code Review
+</a>
 
 ## Software Design and Engineering Enhancement
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
