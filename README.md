@@ -13,8 +13,9 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 [Watch Code Review](https://youtu.be/Z9YHr7qq7Mc)
 
 ## Software Design and Engineering Enhancement
-
-[View Enhancement 1 - Software Design and Engineering](https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering)
+<a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
+View Enhancement 1 - Software Design and Engineering
+</a>
 
 ### Narrative
 
@@ -41,8 +42,9 @@ The password update was also more involved than I originally expected. It affect
 Overall, I think this enhancement made the artifact a lot stronger. The app still does basically the same thing it did before, but the way it is built is much better. It is cleaner, more secure, and easier to follow, and I think that shows more of what I have learned throughout the computer science program than the original version did.
 
 ## Algorithms and Data Structures
-
-[View Enhancement 2 - Algorithms and Data Structures](https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%202%20%7C%20Algorithms%20%26%20Data%20Structure)
+<a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%202%20%7C%20Algorithms%20%26%20Data%20Structure" target="_blank">
+View Enhancement 2 - Algorithms and Data Structures
+</a>
 
 ### Narrative
 
