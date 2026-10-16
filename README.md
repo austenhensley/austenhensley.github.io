@@ -137,12 +137,12 @@ The second enhancement added weight-trend analysis to make better use of the use
 <table>
   <tr>
     <td align="center" valign="bottom" width="200">
-      <img src="Images/Enhanced%20With%20Weight%20Entries.png" width="300"><br>
+      <img src="Images/Enhanced%20With%20Weight%20Entries.png" width="285"><br>
       <em>Recorded weight history</em>
     </td>
     <td align="center" valign="bottom" width="200">
-      <img src="Images/Enhanced%20Filled%20Dashboard.png" width="300"><br>
-      <em>Dashboard displaying trend and progress information</em>
+      <img src="Images/Enhanced%20Filled%20Dashboard.png" width="285"><br>
+      <em>Trend and progress information</em>
     </td>
   </tr>
 </table>
@@ -177,11 +177,28 @@ The biggest lesson for me was that getting the average right is only part of the
 
 <h2 align="center">Databases</h2>
 
+The third enhancement focused on improving how the application stores and manages its data. I moved the database implementation to Room, reorganized the database structure, improved date handling, added filtering and validation, and preserved existing user data during the migration. This enhancement also involved troubleshooting a database migration issue that initially prevented existing users from logging in.
+
+<div align="center">
+  
+<table>
+  <tr>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Enhanced%20Apply%20Filter.png" width="285"><br>
+      <em>Selecting a date range</em>
+    </td>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Enhanced%20Date%20Filter%20Applied.png" width="285"><br>
+      <em>History with date filter applied</em>
+    </td>
+  </tr>
+</table>
+
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%203%20|%20Databases" target="_blank">
 View Enhancement 3 | Databases
 </a>
 
-The third enhancement focused on improving how the application stores and manages its data. I moved the database implementation to Room, reorganized the database structure, improved date handling, added filtering and validation, and preserved existing user data during the migration. This enhancement also involved troubleshooting a database migration issue that initially prevented existing users from logging in.
+</div>
 
 <h3 align="center">Narrative</h3>
 
