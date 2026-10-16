@@ -1,4 +1,4 @@
-## Professional Self-Assessment
+<h2 align="center">Professional Self-Assessment</h2>
 When I started the Computer Science program at Southern New Hampshire University in September 2024, I was mostly interested in cybersecurity. I was already working in IT support and wanted to understand more about the software and systems I used. Over time, I became more interested in cloud computing and engineering, especially Microsoft Azure. Between my coursework, my job, and my home lab, I realized how much I enjoy setting up systems and figuring out why something isn't working. Security is still a big part of that interest, but my goals have become more focused on building and supporting reliable systems.
 
 Looking back, one of the biggest changes has been how I approach my work. Earlier in the program, I was usually happy once something worked. I still care about that, of course, but now I also think about whether the code makes sense, how it handles unexpected information, and what would happen if I needed to change it later. Putting this portfolio together gave me a chance to see that difference in my own work. Going back to an older project helped me notice things I probably would have overlooked when I first built it.
@@ -27,7 +27,7 @@ The three enhancements fit together because each one builds on the work before i
 
 Finishing this portfolio has helped me feel more comfortable talking about my technical skills. I have examples I can walk through and explain, including decisions that worked well and problems I had to fix. I still have plenty to learn as I move further into cloud computing, but I feel more prepared to take that next step. I'm bringing my IT experience with me, along with a better understanding of software and a more careful approach to making changes. I want to keep building on that and become someone a team can rely on to work through problems and keep learning.
 
-## Original Artifact
+<h2 align="center">Original Artifact</h2>
 
 Take a look at my original weight-tracking app created in CS360.
 
@@ -35,7 +35,7 @@ Take a look at my original weight-tracking app created in CS360.
 View Original Artifact
 </a>
 
-## Code Review
+<h2 align="center">Code Review</h2>
 
 Watch my code review covering the planned enhancements to my weight-tracking app.
 
@@ -43,12 +43,12 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 Watch Code Review
 </a>
 
-## Software Design and Engineering Enhancement
+<h2 align="center">Software Design and Engineering Enhancement</h2>
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
 View Enhancement 1 - Software Design and Engineering
 </a>
 
-### Narrative
+<h3 align="center">Narrative</h3>
 
 For this enhancement, I went back to the weight-tracking Android app I originally made in CS 360 in C-2 2026. The app is pretty simple on purpose. Users can create an account, log in, enter their weight, set a goal weight, and get a notification once they reach that goal. I originally wanted it to be more straightforward than a lot of the bigger fitness apps that try to do everything at once.
 
@@ -72,12 +72,12 @@ The password update was also more involved than I originally expected. It affect
 
 Overall, I think this enhancement made the artifact a lot stronger. The app still does basically the same thing it did before, but the way it is built is much better. It is cleaner, more secure, and easier to follow, and I think that shows more of what I have learned throughout the computer science program than the original version did.
 
-## Algorithms and Data Structures
+<h2 align="center">Algorithms and Data Structures</h2>
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%202%20%7C%20Algorithms%20%26%20Data%20Structure" target="_blank">
 View Enhancement 2 - Algorithms and Data Structures
 </a>
 
-### Narrative
+<h3 align="center">Narrative</h3>
 
 For this enhancement, I continued working on the Weight Tracker Android app I originally created during CS 360 in C-2 2026. The app allows users to create an account, record their weight, set a goal, and receive a notification when they reach it. I wanted to keep it simple when I first built it. For milestone three, I added trend analysis so the recorded history gives users more insight regarding their progress.
 
