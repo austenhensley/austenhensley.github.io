@@ -31,40 +31,46 @@ Finishing this portfolio has helped me feel more comfortable talking about my te
 
 The original artifact is a Weight Tracker Android application I created in CS 360. The app allows users to create an account, record their weight, set a goal weight, and receive a notification when that goal is reached. This version represents the project before the capstone enhancements and provides a baseline for showing how the application developed throughout CS 499.
 
+<div align="center">
+
 <table>
   <tr>
-    <td align="center">
-      <img src="Images/Login%20Original%20Artifact.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Login%20Original%20Artifact.png" width="200"><br>
       <em>Original login screen</em>
     </td>
-    <td align="center">
-      <img src="Images/Original%20Artifact%20Dashboard.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Original%20Artifact%20Dashboard.png" width="200"><br>
       <em>Original dashboard</em>
     </td>
-    <td align="center">
-      <img src="Images/Original%20Filled%20Dashboard.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Original%20Filled%20Dashboard.png" width="200"><br>
       <em>Dashboard with saved data</em>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="Images/Original%20Weight%20Entry.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Original%20Weight%20Entry.png" width="200"><br>
       <em>Adding a weight entry</em>
     </td>
-    <td align="center">
-      <img src="Images/Original%20Set%20Goal%20Weight.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Original%20Set%20Goal%20Weight.png" width="200"><br>
       <em>Setting a goal weight</em>
     </td>
-    <td align="center">
-      <img src="Images/Original%20Notifiaction%20Screen.png" width="250"><br>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Original%20Notifiaction%20Screen.png" width="200"><br>
       <em>Goal notification</em>
     </td>
   </tr>
 </table>
 
+<br>
+
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Original%20Artifact" target="_blank">
 View Original Artifact
 </a>
+
+</div>
 
 <h2 align="center">Code Review</h2>
 
