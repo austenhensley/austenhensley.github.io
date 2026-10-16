@@ -1,5 +1,3 @@
-# Austen Hensley | ePortfolio
-
 ## Professional Self-Assessment
 When I started the Computer Science program at Southern New Hampshire University in September 2024, I was mostly interested in cybersecurity. I was already working in IT support and wanted to understand more about the software and systems I used. Over time, I became more interested in cloud computing and engineering, especially Microsoft Azure. Between my coursework, my job, and my home lab, I realized how much I enjoy setting up systems and figuring out why something isn't working. Security is still a big part of that interest, but my goals have become more focused on building and supporting reliable systems.
 
