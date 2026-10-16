@@ -29,7 +29,7 @@ Finishing this portfolio has helped me feel more comfortable talking about my te
 
 <h2 align="center">Original Artifact</h2>
 
-Take a look at my original weight-tracking app created in CS360.
+The original artifact is a Weight Tracker Android application I created in CS 360. The app allows users to create an account, record their weight, set a goal weight, and receive a notification when that goal is reached. This version represents the project before the capstone enhancements and provides a baseline for showing how the application developed throughout CS 499.
 
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Original%20Artifact" target="_blank">
 View Original Artifact
@@ -37,7 +37,7 @@ View Original Artifact
 
 <h2 align="center">Code Review</h2>
 
-Watch my code review covering the planned enhancements to my weight-tracking app.
+Before making any changes, I completed a code review of the original Weight Tracker application. The review walks through the existing functionality, identifies areas that could be improved in the software design, algorithms, database structure, and security, and explains the enhancements I planned to make throughout the capstone.
 
 <a href="https://youtu.be/Z9YHr7qq7Mc" target="_blank">
 Watch Code Review
@@ -45,7 +45,7 @@ Watch Code Review
 
 <h2 align="center">Software Design and Engineering</h2>
 
-Short Description
+The first enhancement focused on improving the overall structure and security of the Weight Tracker application. I separated database and application logic from the activities, added reusable validation, introduced support for pounds and kilograms, and replaced plain-text password storage with salted password hashing. These changes made the application easier to maintain while also improving how user data is handled.
 
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
 View Enhancement 1 - Software Design and Engineering
@@ -67,7 +67,7 @@ The password change was probably the most important improvement. The app now use
 
 I also tested the app after everything was changed. It compiled correctly in Android Studio, and I went through the main functions like creating an account, logging in, adding weight, setting a goal, and switching units. Everything still worked after the code was reorganized, which was important because I did not want the enhancement to break features that were already working.
 
-This enhancement still covers the same course outcomes I planned for in module one. Course outcome three shows up mostly in the design decisions I had to make, like deciding how to handle the different weight units. Course outcome four is probably the strongest one here because most of this enhancement was about improving the design and structure of the software. Course outcome five was covered through the password security changes and the improvements to how data is handled. I do not think I need to change my outcome plan at this point.
+This enhancement demonstrates several of the course outcomes. Course outcome three shows up mostly in the design decisions I had to make, like deciding how to handle the different weight units. Course outcome four is probably the strongest one here because most of this enhancement was about improving the design and structure of the software. Course outcome five was covered through the password security changes and the improvements to how data is handled.
 
 The biggest thing I learned from this was probably how different it feels to go back and improve old code instead of just building something new. There were several points where the original code technically worked, so it would have been easy to leave it alone. But once I started separating things out, I could see why the original design would become harder to manage if the app kept growing.
 
@@ -80,13 +80,13 @@ Overall, I think this enhancement made the artifact a lot stronger. The app stil
 View Enhancement 2 - Algorithms and Data Structures
 </a>
 
-Short Description
+The second enhancement added weight-trend analysis to make better use of the user's saved history. I implemented a seven-entry rolling average, trend detection, total weight change, and goal-progress calculations. The enhancement also gave me an opportunity to work with data structures and consider the efficiency of the algorithms used to process and display the results.
 
 <h3 align="center">Narrative</h3>
 
-For this enhancement, I continued working on the Weight Tracker Android app I originally created during CS 360 in C-2 2026. The app allows users to create an account, record their weight, set a goal, and receive a notification when they reach it. I wanted to keep it simple when I first built it. For milestone three, I added trend analysis so the recorded history gives users more insight regarding their progress.
+For this enhancement, I continued working on the Weight Tracker Android app I originally created during CS 360 in C-2 2026. The app allows users to create an account, record their weight, set a goal, and receive a notification when they reach it. I wanted to keep it simple when I first built it. For this enhancement, I added trend analysis so the recorded history gives users more insight regarding their progress.
 
-I selected this artifact because it allows for a practical way to show how my programming skills have developed. The original version mostly stored and displayed individual measurements. Adding calculations to that history shows how I can choose data structures and algorithms to solve a specific problem. It also builds on the service and repository structure from milestone two, which gave the new calculations a clear place in the project.
+I selected this artifact because it allows for a practical way to show how my programming skills have developed. The original version mostly stored and displayed individual measurements. Adding calculations to that history shows how I can choose data structures and algorithms to solve a specific problem. It also builds on the service and repository structure from the previous enhancement, which gave the new calculations a clear place in the project.
 
 The main addition is a seven-entry rolling average. I used an ArrayList to organize the entries by date and an ArrayDeque as a queue for the current window. The algorithm keeps a running total. When the window is full, it removes the oldest weight before adding the next one. That lets it calculate each new average without adding the entire window again. Each complete average is stored with its ending date and entry ID, and the two most recent averages determine whether the trend is increasing, decreasing, or stable.
 
@@ -100,7 +100,7 @@ Date ordering was another issue. The existing dates are stored as month, day, an
 
 The calculation classes were compiled and checked against a simpler averaging method using 1,000 randomized histories. These checks covered things like limited data, date ordering, and goal calculations. I also built and ran the app in Android Studio and checked the trend display, adding, editing, and deleting weights, changing goals, and switching between pounds and kilograms. Everything worked as intended, and the dashboard updated correctly after each change.
 
-This enhancement addresses outcomes three and four, which were the primary outcomes in my Module One plan for this category. Outcome three is demonstrated through the queue, chronological ordering, sliding-window algorithm, and evaluation of time and space trade-offs. Outcome four is demonstrated by integrating those calculations into a useful dashboard feature through the existing application structure. The narrative and code comments also support outcome two. I do not need to change my outcome-coverage plan at this point.
+This enhancement primarily addresses outcomes three and four. Outcome three is demonstrated through the queue, chronological ordering, sliding-window algorithm, and evaluation of time and space trade-offs. Outcome four is demonstrated by integrating those calculations into a useful dashboard feature through the existing application structure. The narrative and code comments also support outcome two.
 
 The biggest lesson for me was that getting the average right is only part of the work. The feature also needs clear rules for missing data, repeated dates, and unusual goal values. Thinking through those cases helped me connect the algorithm to what a user will actually see and understand.
 
@@ -109,19 +109,18 @@ The biggest lesson for me was that getting the average right is only part of the
 View Enhancement 3 | Databases
 </a>
 
-Short Description
+The third enhancement focused on improving how the application stores and manages its data. I moved the database implementation to Room, reorganized the database structure, improved date handling, added filtering and validation, and preserved existing user data during the migration. This enhancement also involved troubleshooting a database migration issue that initially prevented existing users from logging in.
 
 <h3 align="center">Narrative</h3>
 
-
-For milestone four, I continued working on the Weight Tracker app I created in CS 360 during C-2 2026. The app lets users record their weight, set a goal, and receive a notification when they reach it. For this enhancement, I focused on improving the database and keeping the information saved in the app organized. I chose this app because I wanted to build on the work I had already done. When I originally created it, I was mostly concerned with getting everything to work. Looking at it again has helped me notice things I could improve that I did not think much about the first time. It has also given me a chance to work on different skills within the same project.
+For this enhancement, I continued working on the Weight Tracker app I created in CS 360 during C-2 2026. The app lets users record their weight, set a goal, and receive a notification when they reach it. For this enhancement, I focused on improving the database and keeping the information saved in the app organized. I chose this app because I wanted to build on the work I had already done. When I originally created it, I was mostly concerned with getting everything to work. Looking at it again has helped me notice things I could improve that I did not think much about the first time. It has also given me a chance to work on different skills within the same project.
 
 One of the main changes was moving the database work to Room. This gave the database code a clearer structure and made it easier to see where different information belongs. I also separated goal weights from settings. Goals now have their own table, while settings holds preferences like weight units and notifications. I improved how dates are saved so weight entries can be put in the correct order. I also added a date filter that lets users view part of their history. The app still uses the full history for the trend calculations. Other changes help the app find records more efficiently and prevent invalid information from being saved. The password security from the previous enhancement stayed in place. The part I had to be most careful with was updating the database without losing information that was already saved. I wanted an existing user to still be able to log in and see their weight history, goal, and preferences after the update. That made this more involved than just creating a new database and starting over.
 
 I did run into a problem when I tested the app. Clicking Login brought up a message saying it could not access saved data. At first, I could not tell what was causing it. I added a temporary logging line and used Logcat in Android Studio to see the actual error. The error showed that the weights table was still connected to a temporary table called users_new instead of the final users table. I had expected that connection to update when the table was renamed, but it did not. This caused the database upgrade to fail when I tried to log in. After changing the migration code so the tables pointed to the correct users table, login worked again. I checked that my saved history, goal, and preferences were still there. I also tried adding, editing, and deleting entries, using the date filter, and switching between pounds and kilograms. Everything worked after the fix, and I removed the temporary logging.
 
-The database and trend calculations were checked as part of this enhancement, but the login problem showed me that those checks alone were not enough. I still needed to run the app and test the features myself. That was probably the biggest lesson from this milestone. A change can seem ready until I test it with information that was saved before the update.
+The database and trend calculations were checked as part of this enhancement, but the login problem showed me that those checks alone were not enough. I still needed to run the app and test the features myself. That was probably the biggest lesson from this enhancement. A change can seem ready until I test it with information that was saved before the update.
 
-This enhancement supports outcomes three, four, and five from my module one plan. Outcome three connects to improving how the app finds and sorts records and considering the extra storage needed for faster searches. Outcome four connects to using Room and improving the database structure. Outcome five connects to checking saved information and keeping each user's records separate. I do not need to change my outcome plan at this point.
+This enhancement supports outcomes three, four, and five. Outcome three connects to improving how the app finds and sorts records and considering the extra storage needed for faster searches. Outcome four connects to using Room and improving the database structure. Outcome five connects to checking saved information and keeping each user's records separate.
 
 Overall, this enhancement helped me understand how much the rest of an app depends on its database. I learned that I need to pay attention to existing records and the connections between tables when making changes. Working through the login issue also helped me become more comfortable using error logs to figure out what went wrong.
