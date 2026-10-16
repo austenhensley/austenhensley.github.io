@@ -43,7 +43,10 @@ Watch my code review covering the planned enhancements to my weight-tracking app
 Watch Code Review
 </a>
 
-<h2 align="center">Software Design and Engineering Enhancement</h2>
+<h2 align="center">Software Design and Engineering</h2>
+
+Short Description
+
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
 View Enhancement 1 - Software Design and Engineering
 </a>
@@ -77,6 +80,8 @@ Overall, I think this enhancement made the artifact a lot stronger. The app stil
 View Enhancement 2 - Algorithms and Data Structures
 </a>
 
+Short Description
+
 <h3 align="center">Narrative</h3>
 
 For this enhancement, I continued working on the Weight Tracker Android app I originally created during CS 360 in C-2 2026. The app allows users to create an account, record their weight, set a goal, and receive a notification when they reach it. I wanted to keep it simple when I first built it. For milestone three, I added trend analysis so the recorded history gives users more insight regarding their progress.
@@ -103,6 +108,8 @@ The biggest lesson for me was that getting the average right is only part of the
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%203%20|%20Databases" target="_blank">
 View Enhancement 3 | Databases
 </a>
+
+Short Description
 
 <h3 align="center">Narrative</h3>
 
