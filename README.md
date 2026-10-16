@@ -99,3 +99,22 @@ This enhancement addresses outcomes three and four, which were the primary outco
 
 The biggest lesson for me was that getting the average right is only part of the work. The feature also needs clear rules for missing data, repeated dates, and unusual goal values. Thinking through those cases helped me connect the algorithm to what a user will actually see and understand.
 
+<h2 align="center">Databases</h2>
+<a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%203%20|%20Databases" target="_blank">
+View Enhancement 3 | Databases
+</a>
+
+<h3 align="center">Narrative</h3>
+
+
+For milestone four, I continued working on the Weight Tracker app I created in CS 360 during C-2 2026. The app lets users record their weight, set a goal, and receive a notification when they reach it. For this enhancement, I focused on improving the database and keeping the information saved in the app organized. I chose this app because I wanted to build on the work I had already done. When I originally created it, I was mostly concerned with getting everything to work. Looking at it again has helped me notice things I could improve that I did not think much about the first time. It has also given me a chance to work on different skills within the same project.
+
+One of the main changes was moving the database work to Room. This gave the database code a clearer structure and made it easier to see where different information belongs. I also separated goal weights from settings. Goals now have their own table, while settings holds preferences like weight units and notifications. I improved how dates are saved so weight entries can be put in the correct order. I also added a date filter that lets users view part of their history. The app still uses the full history for the trend calculations. Other changes help the app find records more efficiently and prevent invalid information from being saved. The password security from the previous enhancement stayed in place. The part I had to be most careful with was updating the database without losing information that was already saved. I wanted an existing user to still be able to log in and see their weight history, goal, and preferences after the update. That made this more involved than just creating a new database and starting over.
+
+I did run into a problem when I tested the app. Clicking Login brought up a message saying it could not access saved data. At first, I could not tell what was causing it. I added a temporary logging line and used Logcat in Android Studio to see the actual error. The error showed that the weights table was still connected to a temporary table called users_new instead of the final users table. I had expected that connection to update when the table was renamed, but it did not. This caused the database upgrade to fail when I tried to log in. After changing the migration code so the tables pointed to the correct users table, login worked again. I checked that my saved history, goal, and preferences were still there. I also tried adding, editing, and deleting entries, using the date filter, and switching between pounds and kilograms. Everything worked after the fix, and I removed the temporary logging.
+
+The database and trend calculations were checked as part of this enhancement, but the login problem showed me that those checks alone were not enough. I still needed to run the app and test the features myself. That was probably the biggest lesson from this milestone. A change can seem ready until I test it with information that was saved before the update.
+
+This enhancement supports outcomes three, four, and five from my module one plan. Outcome three connects to improving how the app finds and sorts records and considering the extra storage needed for faster searches. Outcome four connects to using Room and improving the database structure. Outcome five connects to checking saved information and keeping each user's records separate. I do not need to change my outcome plan at this point.
+
+Overall, this enhancement helped me understand how much the rest of an app depends on its database. I learned that I need to pay attention to existing records and the connections between tables when making changes. Working through the login issue also helped me become more comfortable using error logs to figure out what went wrong.
