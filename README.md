@@ -56,7 +56,7 @@ The original artifact is a Weight Tracker Android application I created in CS 36
       <em>Setting a goal weight</em>
     </td>
     <td align="center">
-      <img src="Images/Original%20Notification%20Screen.png" width="250"><br>
+      <img src="Images/Original%20Notifiaction%20Screen.png" width="250"><br>
       <em>Goal notification</em>
     </td>
   </tr>
