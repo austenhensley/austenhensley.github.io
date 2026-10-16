@@ -36,30 +36,30 @@ The original artifact is a Weight Tracker Android application I created in CS 36
 
 <table>
   <tr>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Login%20Original%20Artifact.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Login%20Original%20Artifact.png" width="180"><br>
       <em>Original login screen</em>
     </td>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Original%20Artifact%20Dashboard.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Original%20Artifact%20Dashboard.png" width="180"><br>
       <em>Original dashboard</em>
     </td>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Original%20Filled%20Dashboard.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Original%20Filled%20Dashboard.png" width="180"><br>
       <em>Dashboard with saved data</em>
     </td>
   </tr>
   <tr>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Original%20Weight%20Entry.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Original%20Weight%20Entry.png" width="180"><br>
       <em>Adding a weight entry</em>
     </td>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Original%20Set%20Goal%20Weight.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Original%20Set%20Goal%20Weight.png" width="180"><br>
       <em>Setting a goal weight</em>
     </td>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Original%20Notifiaction%20Screen.png" width="200"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Original%20Notifiaction%20Screen.png" width="180"><br>
       <em>Goal notification</em>
     </td>
   </tr>
@@ -136,12 +136,12 @@ The second enhancement added weight-trend analysis to make better use of the use
   
 <table>
   <tr>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Enhanced%20With%20Weight%20Entries.png" width="320"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Enhanced%20With%20Weight%20Entries.png" width="300"><br>
       <em>Recorded weight history</em>
     </td>
-    <td align="center" valign="bottom" width="220">
-      <img src="Images/Enhanced%20Filled%20Dashboard.png" width="320"><br>
+    <td align="center" valign="bottom" width="200">
+      <img src="Images/Enhanced%20Filled%20Dashboard.png" width="300"><br>
       <em>Dashboard displaying trend and progress information</em>
     </td>
   </tr>
