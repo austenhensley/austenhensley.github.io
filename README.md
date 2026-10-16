@@ -65,8 +65,6 @@ The original artifact is a Weight Tracker Android application I created in CS 36
   </tr>
 </table>
 
-<br>
-
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Original%20Artifact" target="_blank">
 View Original Artifact
 </a>
@@ -77,17 +75,34 @@ View Original Artifact
 
 Before making any changes, I completed a code review of the original Weight Tracker application. The review walks through the existing functionality, identifies areas that could be improved in the software design, algorithms, database structure, and security, and explains the enhancements I planned to make throughout the capstone.
 
+<p align="center">
 <a href="https://youtu.be/Z9YHr7qq7Mc" target="_blank">
 Watch Code Review
 </a>
+</p>
 
 <h2 align="center">Software Design and Engineering</h2>
 
-The first enhancement focused on improving the overall structure and security of the Weight Tracker application. I separated database and application logic from the activities, added reusable validation, introduced support for pounds and kilograms, and replaced plain-text password storage with salted password hashing. These changes made the application easier to maintain while also improving how user data is handled.
+The first enhancement focused on improving the overall structure and security of the Weight Tracker application. I separated database and application logic from the activities, added reusable validation, introduced support for pounds and kilograms, and replaced plain-text password storage with salted password hashing. The screenshots below show the updated application after these changes were incorporated into the final version.
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Images/Enhanced%20Dashboard.png" width="280"><br>
+      <em>Updated application dashboard</em>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<p align="center">
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%201%20%7C%20Software%20Engineering" target="_blank">
 View Enhancement 1 - Software Design and Engineering
 </a>
+</p>
 
 <h3 align="center">Narrative</h3>
 
@@ -114,11 +129,29 @@ The password update was also more involved than I originally expected. It affect
 Overall, I think this enhancement made the artifact a lot stronger. The app still does basically the same thing it did before, but the way it is built is much better. It is cleaner, more secure, and easier to follow, and I think that shows more of what I have learned throughout the computer science program than the original version did.
 
 <h2 align="center">Algorithms and Data Structures</h2>
+
+The second enhancement added weight-trend analysis to make better use of the user's saved history. I implemented a seven-entry rolling average, trend detection, total weight change, and goal-progress calculations. The enhancement also gave me an opportunity to work with data structures and consider the efficiency of the algorithms used to process and display the results.
+
+<div align="center">
+  
+<table>
+  <tr>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Enhanced%20With%20Weight%20Entries.png" width="320"><br>
+      <em>Recorded weight history</em>
+    </td>
+    <td align="center" valign="bottom" width="220">
+      <img src="Images/Enhanced%20Filled%20Dashboard.png" width="320"><br>
+      <em>Dashboard displaying trend and progress information</em>
+    </td>
+  </tr>
+</table>
+
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%202%20%7C%20Algorithms%20%26%20Data%20Structure" target="_blank">
 View Enhancement 2 - Algorithms and Data Structures
 </a>
 
-The second enhancement added weight-trend analysis to make better use of the user's saved history. I implemented a seven-entry rolling average, trend detection, total weight change, and goal-progress calculations. The enhancement also gave me an opportunity to work with data structures and consider the efficiency of the algorithms used to process and display the results.
+</div>
 
 <h3 align="center">Narrative</h3>
 
@@ -143,6 +176,7 @@ This enhancement primarily addresses outcomes three and four. Outcome three is d
 The biggest lesson for me was that getting the average right is only part of the work. The feature also needs clear rules for missing data, repeated dates, and unusual goal values. Thinking through those cases helped me connect the algorithm to what a user will actually see and understand.
 
 <h2 align="center">Databases</h2>
+
 <a href="https://github.com/austenhensley/austenhensley.github.io/tree/main/Enhancement%203%20|%20Databases" target="_blank">
 View Enhancement 3 | Databases
 </a>
