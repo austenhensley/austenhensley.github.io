@@ -1,4 +1,6 @@
 <h2 align="center">Professional Self-Assessment</h2>
+
+<div style="text-align: justify;">
 When I started the Computer Science program at Southern New Hampshire University in September 2024, I was mostly interested in cybersecurity. I was already working in IT support and wanted to understand more about the software and systems I used. Over time, I became more interested in cloud computing and engineering, especially Microsoft Azure. Between my coursework, my job, and my home lab, I realized how much I enjoy setting up systems and figuring out why something isn't working. Security is still a big part of that interest, but my goals have become more focused on building and supporting reliable systems.
 
 Looking back, one of the biggest changes has been how I approach my work. Earlier in the program, I was usually happy once something worked. I still care about that, of course, but now I also think about whether the code makes sense, how it handles unexpected information, and what would happen if I needed to change it later. Putting this portfolio together gave me a chance to see that difference in my own work. Going back to an older project helped me notice things I probably would have overlooked when I first built it.
@@ -26,6 +28,7 @@ The third enhancement focused on the database. I moved the database work to Room
 The three enhancements fit together because each one builds on the work before it. Organizing the code made it easier to add the calculations, and improving the database helped keep the information behind those calculations consistent. The code review and narratives explain why I made those changes and what I learned along the way. Together, they give someone looking at my portfolio a better idea of how I work through a problem.
 
 Finishing this portfolio has helped me feel more comfortable talking about my technical skills. I have examples I can walk through and explain, including decisions that worked well and problems I had to fix. I still have plenty to learn as I move further into cloud computing, but I feel more prepared to take that next step. I'm bringing my IT experience with me, along with a better understanding of software and a more careful approach to making changes. I want to keep building on that and become someone a team can rely on to work through problems and keep learning.
+</div>
 
 <h2 align="center">Original Artifact</h2>
 
